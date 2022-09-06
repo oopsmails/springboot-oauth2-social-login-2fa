@@ -10,7 +10,12 @@ arun dcmysql up/start
 spring-boot-oauth2/spring-boot-oauth2-social-2fa/src/main/java/com/oopsmails/springboot/oauth2/fa2/DemoApplication.java
 
 - run frontend 
+
 ng serve --port=8081
+
+- generate .mvn if not exist
+
+mvn wrapper:wrapper
 
 ## Refs:
 
